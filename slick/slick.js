@@ -1288,7 +1288,7 @@
 
         _.animating = true;
 
-        if (_.options.onBeforeChange !== null && index !== _.currentSlide) {
+        if (_.options.onBeforeChange !== null) {
             _.options.onBeforeChange.call(this, _, _.currentSlide, animSlide);
         }
 
